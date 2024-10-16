@@ -1,0 +1,1154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+
+
+ <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+       crossorigin="anonymous"></script>
+
+       <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- STYLESHEET -->
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- GOOGLE FONTS -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Edu+TAS+Beginner&family=Great+Vibes&family=Poppins:wght@100&family=Quicksand&family=Roboto+Slab:wght@300&display=swap"
+    rel="stylesheet">
+
+ 
+
+    <!-- SWIPER LINKS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- FLIPTER JS CSS FILES AND JQUERRY CDN LINK -->
+
+  <!-- JQUERRY ORIGINAL LINK -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!-- FLIPSTER FILES -->
+  <script src="jquery.flipster.min.js"></script>
+  <link rel="stylesheet"  href="jquery.flipster.min.css">
+
+
+
+    
+
+</head>
+
+<body onload="myfunction()" data-bs-spy="scroll" data-bs`-target="#myNavbar"  data-bs-smooth-scroll="true" >
+
+<!-- PRELOADER START -->
+  <div id="loading">
+    <img src="pics-2/preloader.gif">
+  </div>
+  <!-- PRELOADER END -->
+
+  <!-- NAV START -->
+
+  <nav class="navbar navbar-expand-lg sticky-top bg-white p-3" id="myNavbar">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-3" href="#" style="font-family: Arial, Helvetica, sans-serif;">Yummy</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-lg-start text-center">
+          <li class="nav-item me-3">
+            <a class="nav-link active" aria-current="page" href="#hero-img">Home</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#events">Events</a>
+          </li>
+
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#chef">Chefs</a>
+          </li>
+
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#testimonial">Testimonial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+
+        </ul>
+       <div class=" d-flex justify-content-center">
+        <a href="#book" class=" btn btn-outline-danger px-md-3 me-lg-5  rounded-pill">Book a Table</a>
+      </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- NAV END -->
+
+  <!-- HOME PAGE -->
+
+  <div id="hero-img">
+    <div class="container-fluid d-flex flex-column p-md-5 justify-content-center" style=" background-color: #eee;">
+      <div class="row">
+        <div class="col-lg-6 mt-md-0 mb-md-0 mb-3 d-flex flex-column justify-content-center" style="margin-top: 3rem;">
+          <div class="data text-xl-start text-center">
+            <h2 class="display-md-1 display-2 ms-md-5 fw-bolder mb-2" style=" font-family: 'Amatic SC', sans-serif;">
+              Enjoy Your Healthy <br> Delicious Food</h2>
+            <p class="fw-bold text-danger ms-md-5 mb-4 mt-4 fs-6">Sed autem laudantium dolores. Voluptatem itaque ea
+              consequatur eveniet. Eum quas consequatur eveniet. Eum quas Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Consectetur, deleniti!
+            <p>
+            <div class="buttons d-flex ms-lg-5 mt-5 justify-content-lg-start justify-content-center ">
+              <div class="first me-3">
+                <a href="" class="btn btn-danger px-md-4 py-md-2">View More</a>
+              </div>
+              <div class="second">
+                <a href="" class="btn btn-outline-danger  px-md-4 py-md-2">Watch Video</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-5 mb-md-0 mb-3 d-flex justify-content-center ">
+          <img src="pics-2/hero-img.png" class="img-fluid w-md-50  w-75 ">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HOME END -->
+
+  <!-- ABOUT US START -->
+
+  <div id="about" style="margin-top: 4rem;">
+
+    <div class="row">
+      <div class="col-md-12 d-flex flex-column justify-content-center align-items-center mt-5 p-2">
+        <p class="text-secondary fs-5">About Us</p>
+        <hr class="w-25">
+        <h2 class="fw-bolder display-4" style=" font-family: 'Amatic SC', sans-serif; ">
+          Learn More <span class="text-danger">About Us</span>
+        </h2>
+      </div>
+    </div>
+    <div class="container-fluid main_content mt-4">
+      <div class="row">
+        <div class="col-md-6 ms-md-5  about_img mt-md-5">
+
+          <div class="content">
+            <h3 class="p-md-4 p-2 text-center">Book a Table
+              <br>+1 5589 55488 55
+            </h3>
+          </div>
+          <img src="pics-2/about.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-5 p-4 ms-md-3">
+          <p><i class="fa fa-check-circle text-warning" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p><i class="fa fa-check-circle text-warning" aria-hidden="true"></i> Ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.</p>
+          <p><i class="fa fa-check-circle text-warning" aria-hidden="true"></i> Duis aute irure dolor in reprehenderit
+            in voluptate velit.</p>
+          <p><i class="fa fa-check-circle text-warning" aria-hidden="true"></i> Ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore
+            eu fugiat nulla pariatur.</p>
+          <p><i class="fa fa-check-circle text-warning" aria-hidden="true"></i> Ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+          <div class="row">
+            <div class="col-md-12 about_second_img ">
+              <img src="pics-2/about-2.jpg" class="img-fluid " alt="">
+              <div class="play-btn display-2">
+                <i class="fa fa-play  " aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- ABOUT US END -->
+
+  <!-- CARDS START -->
+  <div id="card  " class="overflow-hidden container-fluid" style="margin-top: 6rem; background-color: #eee;">
+    <div class="row mt-5 p-3">
+
+      <div class="col-lg-4">
+        <div class="card text-center mb-3 text-white p-4 active_card" style="background-color: #ce1212;">
+          <div class="card-body">
+            <h5 class="card-title fs-2 gx-0" style="font-family: sans-serif;">Why Choose yummy ?</h5>
+            <p class="card-text w-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium provident
+              vitae ex eius accusamus repellendus mollitia, maxime odio ullam est itaque! Perferendis molestiae corrupti
+              eos, rerum mollitia nam soluta voluptate! Cupiditate iusto eaque cumque eveniet omnis natus veniam
+              delectus saepe illum earum voluptas, doloribus iste est assumenda perspiciatis velit! Quidem?</p>
+          </div>
+          <a href="" class="btn btn-outline-light w-50 mx-auto rounded-pill">Learn More</a>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card text-center mb-3 mt-5">
+          <div class="card-body">
+            <div class="i-tag mb-4"><i class="fa fa-book" style="font-size:45px;color:#ce1212;"></i></div>
+            <h5 class="card-title fs-2 mb-4">Corporis voluptates officia eiusmod</h5>
+            <hr class="w-25 mx-auto">
+            <p class="card-text text-secondary">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris
+              nisi ut aliquip Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card text-center mb-3 mt-5">
+          <div class="card-body">
+            <div class="i-tag mb-4"><i class="fa fa-desktop" aria-hidden="true"
+                style="color: #ce1212; font-size: 45px;"></i></div>
+            <h5 class="card-title fs-2 mb-4">Corporis voluptates officia eiusmod</h5>
+            <hr class="w-25 mx-auto">
+            <p class="card-text text-secondary">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris
+              nisi ut aliquip Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- CARDS END -->
+
+ <!-- MENU START -->
+   <div id="menu" style="margin-top: 6rem;">
+    <div class="row">
+      <div class="col-md-12 d-flex flex-column justify-content-center align-items-center  p-2">
+        <p class="text-secondary fs-6">Delicious Menu</p>
+        <hr class="w-25">
+        <h2 class="fw-light display-4" style=" font-family: 'Amatic SC', sans-serif; ">
+          Check Our <span class="text-danger">Yummy Menu</span>
+        </h2>
+      </div>
+   </div>
+
+   <div class="row mb-4">
+   <ul class="nav nav-pills mt-3 mb-3  d-flex justify-content-center align-items-center" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="pills-Starters-tab" data-bs-toggle="pill" data-bs-target="#pills-Starters" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Starters</button>
+    </li>
+    <li class="nav-item  " role="presentation">
+      <button class="nav-link" id="pills-Breakfast-tab" data-bs-toggle="pill" data-bs-target="#pills-Breakfast" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Breakfast</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-Lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-Lunch" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Lunch</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-Dinner-tab" data-bs-toggle="pill" data-bs-target="#pills-Dinner" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" >Dinner</button>
+    </li>
+  </ul>
+</div>
+  <div class="tab-content" id="pills-tabContent">
+
+    <div class="tab-pane fade show active" id="pills-Starters" role="tabpanel" aria-labelledby="pills-Starters-tab" tabindex="0">
+     <div class="container">
+      <div class="row menu-cards ">
+        <div class="col-lg-4 mt-lg-0 mt-3">
+          <div class="card" >
+            <img src="pics-2/menu-item-3.png" class="card-img-top img-fluid  ps-lg-4 p-4" style="width: 300px;" >
+            <div class="card-body text-center">
+              <h5 class="card-title">Magnam Tiste</h5>
+              <p class="card-text text-secondary">Lorem, deren, trataro, filede, nerada</p>
+              <p class="card-text fw-bolder fs-5" style="color: #ce1212;">$5.95</p>
+              <a href="#" class="btn btn-outline-danger">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-lg-0 mt-3">
+          <div class="card" >
+            <img src="pics-2/menu-item-1.png" class="card-img-top img-fluid  ps-lg-4 p-4" style="width: 300px;" >
+            <div class="card-body text-center">
+              <h5 class="card-title">Aut Luia</h5>
+              <p class="card-text text-secondary">Lorem, filede, nerada</p>
+              <p class="card-text fw-bolder fs-5" style="color: #ce1212;">$7.95</p>
+              <a href="#" class="btn btn-outline-danger">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-lg-0 mt-3">
+          <div class="card" >
+  <img src="pics-2/menu-item-2.png" class="card-img-top img-fluid  ps-lg-4  p-4" style="width: 300px;">
+  <div class="card-body text-center">
+    <h5 class="card-title">Est Eligendi</h5>
+    <p class="card-text text-secondary">Lorem, nerada</p>
+    <p class="card-text fw-bolder fs-5" style="color: #ce1212;">$15.95</p>
+    <a href="#" class="btn btn-outline-danger">Order Now</a>
+  </div>
+</div>
+        </div>
+      </div>
+
+
+
+      <div class="row menu-cards mt-3 pb-2 ">
+        <div class="col-lg-4 mt-lg-0 mt-3">
+          <div class="card" >
+            <img src="pics-2/menu-item-4.png" class="card-img-top img-fluid  ps-lg-4  p-1" style="width: 300px;" >
+            <div class="card-body text-center">
+              <h5 class="card-title">Eos Luibusdam</h5>
+              <p class="card-text text-secondary">Lorem, deren, trataro, filede, nerada</p>
+              <p class="card-text fw-bolder fs-5" style="color: #ce1212;">$20.95</p>
+              <a href="#" class="btn btn-outline-danger">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-lg-0 mt-3">
+          <div class="card" >
+            <img src="pics-2/menu-item-5.png" class="card-img-top img-fluid  ps-lg-4  p-1" style="width: 300px;" >
+            <div class="card-body text-center">
+              <h5 class="card-title">Eos Luibusdam</h5>
+              <p class="card-text">Lorem, deren, trataro, filede, nerada</p>
+              <p class="card-text fw-bolder fs-5" style="color: #ce1212;">$10.95</p>
+              <a href="#" class="btn btn-outline-danger">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-lg-0 mt-3">
+          <div class="card" >
+  <img src="pics-2/menu-item-6.png" class="card-img-top img-fluid  ps-lg-4 p-1" style="width: 300px;">
+  <div class="card-body text-center">
+    <h5 class="card-title">Laboriosam Direva</h5>
+    <p class="card-text">Lorem, deren, trataro, filede, nerada</p>
+    <p class="card-text fw-bolder fs-5" style="color: #ce1212;">$13.55</p>
+    <a href="#" class="btn btn-outline-danger">Order Now</a>
+  </div>
+</div>
+        </div>
+      </div>
+     </div>
+    </div>
+
+    <div class="tab-pane fade" id="pills-Breakfast" role="tabpanel" aria-labelledby="pills-Breakfast-tab" tabindex="0">
+      <div class="container">
+        <div class="row menu-cards ">
+          <div class="col-lg-4 ">
+            <div class="card mt-lg-0 mt-3 mb-2" >
+              <img src="pics-2/menu-item-3.png" class="card-img-top img-fluid ps-lg-4 p-4" style="width: 300px;" >
+              <div class="card-body text-center">
+                <h5 class="card-title">Magnam Tiste</h5>
+                            <p class="card-text text-secondary">Lorem, deren, trataro, filede, nerada</p>
+              <p class="card-text fw-bolder fs-5" style="color: #ce1212;">$9.95</p>
+                <a href="#" class="btn btn-outline-danger">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mt-lg-0 mt-3 mb-2" >
+              <img src="pics-2/menu-item-1.png" class="card-img-top img-fluid  ps-lg-4 p-4" style="width: 300px;" >
+              <div class="card-body text-center">
+                <h5 class="card-title">Aut Luia</h5>
+                <p class="card-text text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                <p class="card-text fw-bolder fs-5" style="color: #ce1212;">$25.95</p>
+                <a href="#" class="btn btn-outline-danger">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mt-lg-0 mt-3 mb-2" >
+    <img src="pics-2/menu-item-2.png" class="card-img-top img-fluid ps-lg-4 p-4" style="width: 300px;">
+    <div class="card-body text-center">
+      <h5 class="card-title">Est Eligendi</h5>
+      <p class="card-text text-secondary">Lorem, deren, trataro, filede, nerada</p>
+      <p class="card-text fw-bolder fs-5" style="color: #ce1212;">$6.95</p>
+      <a href="#" class="btn btn-outline-danger">Order Now</a>
+    </div>
+  </div>
+          </div>
+        </div>
+       </div>
+    </div>
+
+
+    <div class="tab-pane fade" id="pills-Lunch" role="tabpanel" aria-labelledby="pills-Lunch-tab" tabindex="0">
+      <div class="container">
+        <div class="row menu-cards ">
+          <div class="col-lg-4 ">
+            <div class="card mt-lg-0 mt-3 mb-2" >
+              <img src="pics-2/menu-item-3.png" class="card-img-top img-fluid  ps-lg-4 p-4" style="width: 300px;" >
+              <div class="card-body text-center">
+                <h5 class="card-title">Magnam Tiste</h5>
+                            <p class="card-text text-secondary">Lorem, deren, trataro, filede, nerada</p>
+              <p class="card-text fw-bolder fs-5" style="color: #ce1212;">$9.95</p>
+                <a href="#" class="btn btn-outline-danger">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mt-lg-0 mt-3 mb-2" >
+              <img src="pics-2/menu-item-1.png" class="card-img-top img-fluid  ps-lg-4 p-4" style="width: 300px;" >
+              <div class="card-body text-center">
+                <h5 class="card-title">Aut Luia</h5>
+                <p class="card-text text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                <p class="card-text fw-bolder fs-5" style="color: #ce1212;">$25.95</p>
+                <a href="#" class="btn btn-outline-danger">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mt-lg-0 mt-3 mb-2" >
+    <img src="pics-2/menu-item-2.png" class="card-img-top img-fluid  ps-lg-4 p-4" style="width: 300px;">
+    <div class="card-body text-center">
+      <h5 class="card-title">Est Eligendi</h5>
+      <p class="card-text text-secondary">Lorem, deren, trataro, filede, nerada</p>
+      <p class="card-text fw-bolder fs-5" style="color: #ce1212;">$6.95</p>
+      <a href="#" class="btn btn-outline-danger">Order Now</a>
+    </div>
+  </div>
+          </div>
+        </div>
+       </div>
+    </div>
+    <div class="tab-pane fade" id="pills-Dinner" role="tabpanel" aria-labelledby="pills-Dinner-tab" tabindex="0">
+      <div class="container">
+        <div class="row menu-cards ">
+          <div class="col-lg-4">
+            <div class="card mt-lg-0 mt-3 mb-2" >
+              <img src="pics-2/menu-item-3.png" class="card-img-top img-fluid ms-lg-2  ps-lg-4 p-4" style="width: 300px;" >
+              <div class="card-body text-center">
+                <h5 class="card-title">Magnam Tiste</h5>
+                            <p class="card-text text-secondary">Lorem, deren, trataro, filede, nerada</p>
+              <p class="card-text fw-bolder fs-5" style="color: #ce1212;">$9.95</p>
+                <a href="#" class="btn btn-outline-danger">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mt-lg-0 mt-3 mb-2" >
+              <img src="pics-2/menu-item-1.png" class="card-img-top img-fluid  ps-lg-4 p-4" style="width: 300px;" >
+              <div class="card-body text-center">
+                <h5 class="card-title">Aut Luia</h5>
+                <p class="card-text text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                <p class="card-text fw-bolder fs-5" style="color: #ce1212;">$25.95</p>
+                <a href="#" class="btn btn-outline-danger">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mt-lg-0 mt-3 mb-2" >
+    <img src="pics-2/menu-item-2.png" class="card-img-top img-fluid ps-lg-4 p-4" style="width: 300px;">
+    <div class="card-body text-center">
+      <h5 class="card-title">Est Eligendi</h5>
+      <p class="card-text text-secondary">Lorem, deren, trataro, filede, nerada</p>
+      <p class="card-text fw-bolder fs-5" style="color: #ce1212;">$6.95</p>
+      <a href="#" class="btn btn-outline-danger">Order Now</a>
+    </div>
+  </div>
+          </div>
+        </div>
+       </div>
+    </div>
+  </div>
+   </div>
+   
+ <!-- MENU END -->
+
+ <!-- TESTIMONIAL START -->
+    <div id="testimonial" class="test" style="overflow: hidden; margin-top: 4rem;">
+    <div class="row">
+      <div class="row">
+        <div class="col-md-12 d-flex flex-column justify-content-center align-items-center mt-5 ">
+          <p class="text-secondary fs-5">Testimonial</p>
+          <hr class="w-25">
+          <h4 class="fw-bolder display-5" style=" font-family: 'Amatic SC', sans-serif; ">
+           Our Happy <span class="text-danger">Lovely Clients</span>
+          </h4>
+        </div>
+      </div>
+    </div>
+      <div class="container-fluid  ">
+        <div class="row ">
+          <div class="swiper mySwiper mt-2">
+            <div class="swiper-wrapper">
+
+
+              <div class="swiper-slide">
+                <div class="container">
+                  <div class="row p-5 d-flex justify-content-around align-items-center ">
+
+                   <div class="col-lg-3 ms-lg-5 me-lg-5">
+                    <div class="card mt-lg-0 mt-3 mb-lg-2 mb-3 d-lg-block d-none" >
+                      <img src="pics-2/testimonial -1.jpg" class="card-img-top p-3 img-fluid ms-lg-0  " >
+                      <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                          <p class="fs-6">A well-known quote, contained in a blockquote element.</p>
+                          <footer class="blockquote-footer">John Wick</cite></footer>
+                        </blockquote>
+                      </div>
+                    </div>
+                   </div>
+
+                   <div class="col-lg-3 ms-lg-5 me-lg-5 d-lg-block d-none">
+                    <div class="card mt-lg-0 mt-3 mb-lg-2 mb-3" >
+                      <img src="pics-2/testimonial-2.jpg" class="card-img-top p-3 img-fluid ms-lg-0  " >
+                      <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                          <p class="fs-6">A well-known quote, contained in a blockquote element.</p>
+                          <footer class="blockquote-footer">Rubina Hansel</cite></footer>
+                        </blockquote>
+                      </div>
+                    </div>
+                   </div>
+
+                   <div class="col-lg-3 ms-lg-5 me-lg-5 ">
+                    <div class="card mt-lg-0 mt-3 mb-lg-2 mb-3" >
+                      <img src="pics-2/testimonial-3.jpg" class="card-img-top ms-lg-0  p-3 img-fluid  " >
+                      <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                          <p class="fs-6">A well-known quote, contained in a blockquote element.</p>
+                          <footer class="blockquote-footer">Gabriels hamswoth</cite></footer>
+                        </blockquote>
+                      </div>
+                    </div>
+                   </div>
+
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="swiper-slide">
+                <div class="container">
+                  <div class="row p-5 d-flex justify-content-around align-items-center">
+                   <div class="col-lg-3 ms-lg-5 me-lg-5 ">
+
+                    <div class="card mt-lg-0 mt-3 mb-lg-2 mb-3 mb-3 d-lg-block d-none" >
+                      <img src="pics-2/testimonial -1.jpg" class="card-img-top p-3 img-fluid ms-lg-0  " >
+                      <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                          <p class="fs-6">A well-known quote, contained in a blockquote element.</p>
+                          <footer class="blockquote-footer">John Wick</cite></footer>
+                        </blockquote>
+                      </div>
+                    </div>   
+                   </div>
+
+                   <div class="col-lg-3 ms-lg-5 me-lg-5 mb-3 ">
+                    <div class="card mt-lg-0 mt-3 mb-lg-2 mb-3" >
+                      <img src="pics-2/testimonial-2.jpg" class="card-img-top p-3 img-fluid ms-lg-0 " >
+                      <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                          <p class="fs-6">A well-known quote, contained in a blockquote element.</p>
+                          <footer class="blockquote-footer">Rubina Hansel</cite></footer>
+                        </blockquote>
+                      </div>
+                    </div>
+                   </div>
+
+                   <div class="col-lg-3 ms-lg-5 me-lg-5 d-lg-block d-none ">
+                    <div class="card mt-lg-0 mt-3 mb-lg-2 mb-3" >
+                      <img src="pics-2/testimonial-3.jpg" class="card-img-top p-3 img-fluid ms-lg-0" >
+                      <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                          <p class="fs-6">A well-known quote, contained in a blockquote element.</p>
+                          <footer class="blockquote-footer">Gabriels hamswoth</cite></footer>
+                        </blockquote>
+                      </div>
+                    </div>
+                   </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="container">
+                  <div class="row p-5 d-flex justify-content-around align-items-center">
+                   <div class="col-lg-3 ms-lg-5 me-lg-5 ">
+
+                    <div class="card mt-lg-0 mt-3 mb-lg-2 mb-3" >
+                      <img src="pics-2/testimonial -1.jpg" class="card-img-top p-3 img-fluid ms-lg-0" >
+                      <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                          <p class="fs-6">A well-known quote, contained in a blockquote element.</p>
+                          <footer class="blockquote-footer">John Wick</cite></footer>
+                        </blockquote>
+                      </div>
+                    </div>
+                   </div>
+
+                   <div class="col-lg-3 ms-lg-5 me-lg-5 d-lg-block d-none">
+                    <div class="card mt-lg-0 mt-3 mb-lg-2 mb-3" >
+                      <img src="pics-2/testimonial-2.jpg" class="card-img-top p-3 img-fluid " >
+                      <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                          <p class="fs-6">A well-known quote, contained in a blockquote element.</p>
+                          <footer class="blockquote-footer">Rubina Hansel</cite></footer>
+                        </blockquote>
+                      </div>
+                    </div>
+                   </div>
+
+                   <div class="col-lg-3 ms-lg-5 me-lg-5 d-lg-block d-none ">
+                    <div class="card mt-lg-0 mt-3 mb-lg-2 mb-3" >
+                      <img src="pics-2/testimonial-3.jpg" class="card-img-top p-3 img-fluid " >
+                      <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                          <p class="fs-6">A well-known quote, contained in a blockquote element.</p>
+                          <footer class="blockquote-footer">Gabriels hamswoth</cite></footer>
+                        </blockquote>
+                      </div>
+                    </div>
+                   </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide d-lg-none d-block">
+                <div class="container">
+                  <div class="row p-5">
+                   <div class="col-lg-3 ms-lg-5 me-lg-5 ">
+                    <div class="card mt-lg-0 mt-3 mb-lg-2 mb-3 d-lg-none d-block d-flex justify-content-center" >
+                      <img src="pics-2/testimonial-3.jpg" class="card-img-top p-3 img-fluid ms-lg-0" >
+                      <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                          <p class="fs-6">A well-known quote, contained in a blockquote element.</p>
+                          <footer class="blockquote-footer">John Wick</cite></footer>
+                        </blockquote>
+                      </div>
+                    </div>
+                   </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide d-lg-none d-block">
+                <div class="container">
+                  <div class="row p-5">
+                   <div class="col-lg-3 ms-lg-5 me-lg-5 ">
+                    <div class="card mt-lg-0 mt-3 mb-lg-2 mb-3 d-lg-none d-block d-flex justify-content-center" >
+                      <img src="pics-2/testimonial-2.jpg" class="card-img-top p-3 img-fluid ms-lg-0" >
+                      <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                          <p class="fs-6">A well-known quote, contained in a blockquote element.</p>
+                          <footer class="blockquote-footer">John Wick</cite></footer>
+                        </blockquote>
+                      </div>
+                    </div>
+                   </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide d-lg-none d-block">
+                <div class="container">
+                  <div class="row p-5">
+                   <div class="col-lg-3 ms-lg-5 me-lg-5 ">
+                    <div class="card mt-lg-0 mt-3 mb-lg-2 mb-3 d-lg-none d-block d-flex justify-content-center" >
+                      <img src="pics-2/testimonial -1.jpg" class="card-img-top p-3 img-fluid ms-lg-0" >
+                      <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                          <p class="fs-6">A well-known quote, contained in a blockquote element.</p>
+                          <footer class="blockquote-footer">John Wick</cite></footer>
+                        </blockquote>
+                      </div>
+                    </div>
+                   </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide d-lg-none d-block">
+                <div class="container">
+                  <div class="row p-5">
+                   <div class="col-lg-3 ms-lg-5 me-lg-5 ">
+                    <div class="card mt-lg-0 mt-3 mb-lg-2 mb-3 d-lg-none d-block d-flex justify-content-center" >
+                      <img src="pics-2/testimonial-2.jpg" class="card-img-top p-3 img-fluid ms-lg-0" >
+                      <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                          <p class="fs-6">A well-known quote, contained in a blockquote element.</p>
+                          <footer class="blockquote-footer">John Wick</cite></footer>
+                        </blockquote>
+                      </div>
+                    </div>
+                   </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide d-lg-none d-block">
+                <div class="container">
+                  <div class="row p-5 ">
+                   <div class="col-lg-3 ms-lg-5 me-lg-5 ">
+                    <div class="card mt-lg-0 mt-3 mb-lg-2 mb-3 d-lg-none d-block d-flex justify-content-center" >
+                      <img src="pics-2/testimonial-3.jpg" class="card-img-top p-3 img-fluid ms-lg-0" >
+                      <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                          <p class="fs-6">A well-known quote, contained in a blockquote element.</p>
+                          <footer class="blockquote-footer">John Wick</cite></footer>
+                        </blockquote>
+                      </div>
+                    </div>
+                   </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            <div class="autoplay-progress">
+              <svg viewBox="0 0 48 48">
+                <circle cx="24" cy="24" r="20"></circle>
+              </svg>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ <!-- TESTIMONIAL END -->
+
+
+<!-- EVENT START -->
+<div id="events" style="overflow: hidden; margin-top: 5rem;">
+  <div class="row">
+    <div class="col-md-12 d-flex flex-column justify-content-center align-items-center">
+      <p class="text-secondary fs-5">Events</p>
+      <hr class="w-25">
+      <h2 class="fw-light display-4 text-lg-start text-center" style=" font-family: 'Amatic SC', sans-serif; ">
+        <span class="text-danger"> Share Your</span>  Moments In <span class="text-danger">Our Restaurant</span>
+      </h2>
+    </div>
+  </div>
+
+ <div class="container-fluid mt-5">
+  <div class="row d-flex   mt-3 justify-content-between p-lg-5 pt-3 align-items-center" >
+  
+  <div class="col-lg-5 ">
+     <div class="swiper myCards">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide1 swiper-slide">
+          <div class="img"></div>
+          <h5 class="mb-3">Party Event</h5>
+        </div>
+        <div class="swiper-slide2 swiper-slide">
+          <div class="img"></div>
+          <h5 class="mb-3">Live in Piece</h5>
+        </div>
+        <div class="swiper-slide3 swiper-slide">
+          <div class="img"></div>
+          <h5 class="mb-3">Dating Event</h5>
+        </div>
+        <div class="swiper-slide4 swiper-slide">
+          <div class="img"></div>
+          <h5 class="mb-3">Birthday Event</h5>
+        </div>
+        <div class="swiper-slide5 swiper-slide">
+          <div class="img"></div>
+          <h5 class="mb-3">Family Event</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="col-lg-6 d-flex flex-column border-dark justify-content-around align-items-center mt-lg-0 mt-3 mb-1 mb-lg-0 me-5" style=" border-radius: 20px;">
+    <h3 class="fs-1  mt-5 fw-bolder text-center" style="font-family:'Amatic SC', sans-serif; ">Some people look for a beautiful place</h3>
+    <hr style="border-top: 2px solid #ce1212;" class="w-50 mx-auto mb-4" >
+    <p class="text-center text-secondary fs-6 fw-lighter p-lg-3 px-1 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corrupti adipisci cumque earum quod quos asperiores voluptatem recusandae vitae fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugit dolores quam soluta facere voluptates tempore! Reprehenderit assumenda sapiente corporis.</p>
+   <div class="btn">
+    <div class="btn btn-outline-danger mb-3">View More Events</div>
+    <div class="btn btn-outline-danger mb-3 ms-2">book your Events</div>
+   </div>
+</div>
+</div>
+    
+   
+</div>
+</div>
+<!-- EVENT END -->
+
+<!-- CHEFS START -->
+<div id="chef" style="overflow: hidden; margin-top: 5rem;">
+  <div class="row">
+    <div class="col-md-12 d-flex flex-column justify-content-center align-items-center">
+      <p class="text-secondary fs-5">Chefs</p>
+      <hr class="w-25">
+      <h2 class="fw-light display-4 text-lg-start text-center" style=" font-family: 'Amatic SC', sans-serif; ">
+         Our<span class="text-danger"> Professional</span> Chefs
+      </h2>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row p-3 ">
+      <div class="col-lg-4 mb-lg-0 mb-4 card-content"   >
+   <div class="card card1 " style="width: 100%; height: 70vh;">
+    
+    <div class="img">
+      <div class="social me-2">
+        <a href=""><i class="fa-brands fa-instagram me-2 ms-lg-0 ms-2 fs-3"></i></a>
+        <a href=""><i class="fa-brands fa-whatsapp me-2 ms-lg-0 ms-2 fs-3"></i></a>
+        <a href=""><i class="fa-regular fa-envelope me-2 ms-lg-0 ms-2 fs-3"></i></a>
+      </div>
+    </div>
+    <div class="content mb-4 mt-lg-0 mt-3">
+      <h2 style="font-family: sans-serif;">Walter White</h2>
+      <p class="text-secondary">Master Chef</p>
+      <span class="text-center px-2 ">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</span>
+    </div>
+   </div>
+      </div>
+      <div class="col-lg-4 mb-lg-0 mb-4">
+        <div class="card  card2 " style="width: 100%; height: 70vh;">
+    
+          <div class="img">
+            <div class="social me-2">
+              <a href=""><i class="fa-brands fa-instagram me-2 ms-lg-0 ms-2 fs-3"></i></a>
+              <a href=""><i class="fa-brands fa-whatsapp me-2 ms-lg-0 ms-2 fs-3"></i></a>
+              <a href=""><i class="fa-regular fa-envelope me-2 ms-lg-0 ms-2 fs-3"></i></a>
+            </div>
+          </div>
+          <div class="content mb-4 mt-lg-0 mt-3">
+            <h2 style="font-family: sans-serif;">Sarah Jhonson</h2>
+            <p class="text-secondary">Patissier</p>
+            <span class="text-center px-2 ">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</span>
+          </div>
+         </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card card3 " style="width: 100%; height: 70vh;">
+    
+          <div class="img">
+            <div class="social me-2">
+              <a href=""><i class="fa-brands fa-instagram me-2 ms-lg-0 ms-2 fs-3"></i></a>
+              <a href=""><i class="fa-brands fa-whatsapp me-2 ms-lg-0 ms-2 fs-3"></i></a>
+              <a href=""><i class="fa-regular fa-envelope me-2 ms-lg-0 ms-2 fs-3"></i></a>
+            </div>
+          </div>
+          <div class="content mb-4 mt-lg-0 mt-3">
+            <h2 style="font-family: sans-serif;">William Anderson</h2>
+            <p class="text-secondary">Cook</p>
+            <span class="text-center px-2 ">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</span>
+          </div>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- CHEFS END -->
+
+<!-- BOOK START -->
+<div id="book" style="overflow: hidden; margin-top: 5rem;">
+    <div class="row">
+      <div class="col-md-12 d-flex flex-column justify-content-center align-items-center">
+        <p class="text-secondary fs-5">Book a Table</p>
+        <hr class="w-25">
+        <h2 class="fw-light display-4 text-lg-start text-center" style=" font-family: 'Amatic SC', sans-serif; ">
+           Book<span class="text-danger"> Your Stay</span> With Us
+        </h2>
+      </div>
+      </div>
+
+      
+        <div class="container-fluid mt-5" style="background-color: #ffffff;">
+          <div class="row p-5 booking-content">
+            <div class="col-lg-3 d-flex justify-content-center" >
+              <img src="pics-2/book-1.jpg" class="img-fluid">
+            
+            </div>
+            <div class="col-lg-8 me-2 mt-lg-0 mt-4 mb-lg-0 mb-4">
+              <form class="row g-3">
+                <div class="col-md-6 ">
+                  <label for="inputText" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="inputText">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputEmail" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+              
+              
+                <div class="col-md-6">
+                  <label for="inputDate" class="form-label">Date</label>
+                  <input type="date" class="form-control" id="inputDate">
+                </div>
+               
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">People</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>Medium Table (for 5 to 6 people) </option>
+                    <option>Large Table Table (for 10 to 15 people)</option>
+                  </select>
+                </div>
+
+                <div class="col-md-2">
+                  <label for="inputTime" class="form-label">time</label>
+                  <input type="time" class="form-control" id="inputTime">
+                </div>
+               
+                <div class="col-lg-12 ">
+                  <label for="inputMEssage" class="form-label">Message</label> <br>
+                <textarea class="px-lg-5 px-4 py-lg-2 py-2" name="" id="" cols="110" rows="7" placeholder=  "Aware us for your personal prepration"></textarea>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                  <button type="submit" class="btn btn-outline-danger">Book Now</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- BOOK END -->
+
+<!-- GALLERY START -->
+<div id="gallery"style="overflow: hidden; margin-top: 4rem;">
+  <div class="row">
+    <div class="col-md-12 d-flex flex-column justify-content-center align-items-center">
+      <p class="text-secondary fs-5">Gallery</p>
+      <hr class="w-25">
+      <h2 class="fw-light display-4 text-lg-start text-center" style=" font-family: 'Amatic SC', sans-serif; ">
+        Check <span class="text-danger">Our</span> Gallery
+      </h2>
+      <p class="text-secondary fs-5">Scroll To Watch</p>
+    </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+      <div class="row">
+     <div id="my-slider">
+        <ul>
+          <li><img src="pics-2/g-1.jpg" alt="" width="600px" class="photo"></li>
+          <li><img src="pics-2/g-2.jpg" alt="" width="600px" class="photo"></li>
+          <li><img src="pics-2/g-3.jpg" alt="" width="600px" class="photo"></li>
+          <li><img src="pics-2/g-4.jpg" alt="" width="600px" class="photo"></li>
+          <li><img src="pics-2/g-5.jpg" alt="" width="600px" class="photo"></li>
+          <li><img src="pics-2/g-6.jpg" alt="" width="600px" class="photo"></li>
+          <li><img src="pics-2/g-7.jpg" alt="" width="600px" class="photo"></li>
+          <li><img src="pics-2/g-8.jpg" alt="" width="600px" class="photo"></li>
+          <li><img src="pics-2/g-9.jpg" alt="" width="600px" class="photo"></li>
+        </ul>
+     </div>
+<div class="row mb-lg-5 mt-3">
+  <div class="col-12 d-flex justify-content-center">
+     <a href="" class="btn btn-outline-danger">View Full Gallery</a>
+    </div>
+</div>
+    </div>
+    </div> 
+
+</div>
+<!-- GALLERY END -->
+
+<!-- CONTACT US START -->
+ <div id="contact" style="overflow: hidden; margin-top: 5rem;">
+  <div class="row">
+    <div class="col-md-12 d-flex flex-column justify-content-center align-items-center">
+      <p class="text-secondary fs-5">Contact Us</p>
+      <hr class="w-25">
+      <h2 class="fw-light display-4 text-lg-start text-center" style=" font-family: 'Amatic SC', sans-serif; ">
+        Need Help ? <span class="text-danger">Contact Us</span>
+      </h2>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center mt-3">
+        <iframe style="width: 100vw; height: 300px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1563360.060643011!2d-76.04356662931447!3d40.065649592385384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c0fb959e00409f%3A0x2cd27b07f83f6d8d!2sNew%20Jersey%2C%20USA!5e0!3m2!1sen!2sin!4v1701080617110!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+
+<div class="container mt-5 px-lg-0 px-4 ">
+  <div class="row d-flex justify-content-around">
+    <div class="col-lg-5 d-flex flex-md-row flex-column text-lg-start text-center justify-content-evenly px-lg-0 px-4 align-items-center py-lg-3 py-4 rounded-pill contact-content" style="background-color: #eee;">
+      <i class="fa-solid fa-map fs-1" style="color: #ce1212;"></i>
+      <div class="info me-lg-5">
+      <h4 class="text-secondary fw-bolder" >Our Address</h4>
+      <p>Abc Street, New York, New York, NY US</p>
+    </div>
+    </div>
+    
+    <div class="col-lg-5 d-flex flex-md-row flex-column text-lg-start text-center  justify-content-evenly align-items-center px-lg-0 px-4 py-lg-3 py-4  mt-lg-0 mt-4 rounded-pill" style="background-color: #eee;">
+      <i class="fa-solid fa-envelope fs-1" style="color: #ce1212;"></i>
+      <div class="info me-lg-5">
+      <h4 class="text-secondary fw-bolder" >Our Personal Email</h4>
+      <p>yummy@example.com</p>
+    </div>
+    </div>
+  </div>
+
+  <div class="row d-flex  justify-content-around mt-lg-5 mt-4">
+    <div class="col-lg-5 d-flex flex-md-row flex-column text-lg-start text-center  justify-content-evenly align-items-center px-lg-0 px-4 py-lg-3 py-4  mt-lg-0 mt-4 rounded-pill" style="background-color: #eee;">
+      <i class="fa-solid fa-phone fs-1 mb-lg-0 mb-2" style="color: #ce1212;"></i>
+      <div class="info me-lg-5">
+      <h4 class="text-secondary fw-bolder" >Contact Via Phone</h4>
+      <p>0123456789</p>
+    </div>
+    </div>
+    
+    <div class="col-lg-5 d-flex flex-md-row flex-column text-lg-start text-center px-lg-0 px-4 py-lg-3 py-4 justify-content-evenly align-items-center py-3 rounded-pill mt-lg-0 mt-4" style="background-color: #eee;">
+      <i class="fa-regular fa-clock fs-1 " style="color: #ce1212;"></i>
+      <div class="info me-lg-5">
+      <h4 class="text-secondary fw-bolder" >Opening Hours</h4>
+      <p>Mon-Sat: 11AM - 23PM; Sunday: Closed</p>
+    </div>
+    </div>
+  </div>
+</div>
+
+  <div class="container mt-lg-4">
+    <div class="row">
+      <form class="row g-3 p-lg-0 p-3">
+
+        <div class="col-md-4">
+          <label for="inputName4" class="form-label">Name</label>
+          <input type="text" class="form-control" id="inputName4">
+        </div>
+
+        <div class="col-md-4">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-4 ">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+
+        <div class="col-lg-12 d-flex flex-column  mt-3 ">
+          <label for="inputMEssage" class="form-label">Message</label> 
+        <textarea class="px-lg-5 px-4 py-lg-2 py-2" name="" id="" cols="110" rows="7" ></textarea>
+        </div>
+      
+        <div class="col-12 justify-content-center d-flex">
+          <button type="submit" class="btn btn-outline-danger">Submit</button>
+        </div>
+      </form>
+  </div>
+</div>
+ </div>
+<!-- CONTACT US END -->
+
+<!-- FOOTER START -->
+<div class="container-fluid bg-dark mt-4">
+  <div class="row text-white  p-3">
+    <div class="col-lg-4 d-flex justify-content-center  flex-column align-items-center">
+      <h5>Address</h5>
+      <hr class="w-25 ">
+      <p class="text-center">Abc Street <br>
+        New York, NY US</p>
+    </div>
+    <div class="col-lg-4 d-flex justify-content-center  flex-column align-items-center">
+      <h5>Reservations</h5>
+      <hr class="w-25 ">
+      <p class="text-center">Phone: 0123456789 <br>
+        Email: yummy@example.com</p>
+    </div>
+    <div class="col-lg-4 d-flex justify-content-center  flex-column align-items-center text-center">
+      <h5>Opening Hours</h5>
+      <hr class="w-25 ">
+      <p>Mon-Sat: 11AM - 23PM
+        <br>
+        Sunday: Closed</p>
+    </div>
+  </div>
+
+ <div class="container">
+  <hr class="w-75 mx-auto text-white" >
+  <div class="row text-white">
+    <div class="col-12 d-flex justify-content-center flex-column align-items-center">
+  <p>&copy Copyright . All Rights Reserved</p>
+  <p>Designed by Bikramjeet Kaur</p>
+    </div>
+  </div>
+ </div>
+  
+    </div>
+  </div>
+</div>
+
+</div>
+<!-- FOOTER END -->
+
+
+<!-- FLIPSTER JS CODE -->
+<script>
+  $("#my-slider").flipster({
+    loop:true,
+    start:5,
+    autoplay:1999,
+    touch:true
+  });
+</script>
+
+
+
+ <!-- SWIPER JS CODE -->
+ <script>
+  const progressCircle = document.querySelector(".autoplay-progress svg");
+  const progressContent = document.querySelector(".autoplay-progress span");
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 4500,
+      disableOnInteraction: false
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    },
+    on: {
+      autoplayTimeLeft(s, time, progress) {
+        progressCircle.style.setProperty("--progress", 1 - progress);
+        progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+      }
+    }
+  });
+</script>
+
+<!-- PRELOAD JS CODE -->
+<script>
+ var preloader = document.getElementById('loading');
+ function myfunction(){
+  preloader.style.display = 'none';
+ };
+</script>
+
+<!-- ----- EFFECT CARDS----- -->
+<script>
+  var swiper = new Swiper(".myCards", {
+    effect: "cards",
+    grabCursor: true,
+  });
+</script>
+
+
+</body>
+
+</html>
